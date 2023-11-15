@@ -1,0 +1,13 @@
+img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.my-tappable-image {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.my-tappable-image:active {
+  transform: scale(0.95);
+}
